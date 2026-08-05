@@ -39,6 +39,7 @@ def scanner(urls:str, enum:str, output_format:str, token:str, output:bool):
 
         except KeyboardInterrupt:
             print(f"{Fore.YELLOW}[*] Scan aborted by user.{Fore.RESET}")
+            sys.exit(1)
         except Exception as e:
             print(f"{Fore.RED}[-] An error occured in scanner: {e}{Fore.RESET}")
             sys.exit(1)
