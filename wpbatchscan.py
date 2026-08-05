@@ -32,10 +32,10 @@ def scanner(urls:str, enum:str, output_format:str, token:str, output:bool):
                 print(f"{Fore.RED}[-] Got error while scanning. Please see the log/output for more details.{Fore.RESET}\n")
                 continue
             else:
-                print(f"{Fore.RED}[+] {url} scan completed successfully!{Fore.RESET}")
+                print(f"{Fore.GREEN}[+] {url} scan completed successfully!{Fore.RESET}")
 
             if output:
-                print(f"{Fore.RED}[+] Scan results written to outputs/{url.split('//', 2)[1]}{Fore.RESET}")
+                print(f"{Fore.GREEN}[+] Scan results written to outputs/{url.split('//', 2)[1]}{Fore.RESET}")
 
         except KeyboardInterrupt:
             print(f"{Fore.YELLOW}[*] Scan aborted by user.{Fore.RESET}")
