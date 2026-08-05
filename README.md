@@ -1,4 +1,4 @@
-# wpbatchscan: scan multiple urls with wpscan at once
+# Scan multiple urls with `wpscan` at once
 
 [`wpscan`](https://github.com/wpscanteam/wpscan) is a powerful WordPress vulnerability scanner. However, `wpscan` can only work with one url at a time. `wpbatchscan` is a Python script to scan multiple URLs with `wpscan` at once.
 
